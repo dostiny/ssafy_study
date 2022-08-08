@@ -1,6 +1,3 @@
-from unittest import result
-
-
 n = int(input())
 t_set = set()
 t_table = []
