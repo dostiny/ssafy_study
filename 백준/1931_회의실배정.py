@@ -27,3 +27,5 @@ for x in t_table:
     t_count = 1
 
 print(max_count)
+
+# 메모리 초과로 실패
