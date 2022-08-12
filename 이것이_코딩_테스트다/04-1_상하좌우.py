@@ -5,6 +5,8 @@ sys.stdin = open('04-1.txt', 'r')
 T = int(input())
 arr = list(map(str, input().split()))
 
+x, y = 1, 1
+
 for i in arr:
     if i == 'U':
         if x != 1:
