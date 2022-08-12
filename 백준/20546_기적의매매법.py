@@ -15,6 +15,7 @@ for i in range(N):
             B = B % arr[i]
 am = ac * arr[-1] + A
 bm = bc * arr[-1] + B
+print(am, bm)
 if am > bm:
     print('BNP')
 elif am < bm:
