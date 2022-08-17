@@ -12,5 +12,7 @@ while ar >= 0:
         arr[ac][i] = '*'
     ar, ac = ar - 2, ac + 2
 
-for ar in arr:
-    print(*ar)
+for ali in arr:
+    for al in ali:
+        print(al, end='')
+    print()
